@@ -1,18 +1,18 @@
-# 🏥 Healthcare Appointment App
+#  Healthcare Appointment App
 
 A responsive healthcare appointment booking application built with React, React Router, Tailwind CSS, and Local Storage.
 
-## ✨ Features
+##  Features
 
-- 🏠 Home page with healthcare services
-- 👨‍⚕️ Browse available doctors
-- 📅 Book appointments with doctors
-- 📋 View all booked appointments
-- ❌ Delete appointments
-- 💾 Local Storage support (appointments persist after refresh)
-- 📱 Responsive and clean UI
+-  Home page with healthcare services
+-  Browse available doctors
+-  Book appointments with doctors
+-  View all booked appointments
+-  Delete appointments
+- Local Storage support (appointments persist after refresh)
+-  Responsive and clean UI
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - React
 - React Router DOM
@@ -20,7 +20,7 @@ A responsive healthcare appointment booking application built with React, React 
 - Tailwind CSS
 - Vite
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/sam123227/healthcare-appointment-app.git
@@ -29,13 +29,11 @@ npm install
 npm run dev
 ```
 
-## 📸 Screenshot
+##  Screenshot
 
 ![Healthcare Appointment App](./screenshots/healthcare.png)
 
-## 🌐 Live Demo
+##  Live Demo
 https://healthcare-appointment-app-three.vercel.app/
 
-## 👨‍💻 Author
 
-**Samir**
