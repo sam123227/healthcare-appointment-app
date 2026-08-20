@@ -22,7 +22,7 @@ function Doctor() {
             key={doctor.id}
             className="bg-white shadow-lg rounded-xl p-6 hover:shadow-xl transition"
           >
-            <h2 className="text-2xl font-bold">
+            <h2 className="text-2xl text-gray-800 dark:text-gray-300 font-bold">
               {doctor.name}
             </h2>
 
@@ -30,7 +30,7 @@ function Doctor() {
               {doctor.speciality}
             </p>
 
-            <p className="font-semibold mt-3">
+            <p className="font-semibold text-gray-800 dark:text-gray-300 mt-3">
               Consultation Fee: Rs. {doctor.fee}
             </p>
 

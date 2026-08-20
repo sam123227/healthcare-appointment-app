@@ -45,20 +45,20 @@ function Appointments({ appointments, setAppointments }) {
             className="bg-white shadow-lg rounded-xl p-6"
           >
 
-            <h3 className="text-2xl font-bold">
-              {appointment.name}
+            <h3 className="text-2xl text-gray-800 dark:text-gray-300 font-bold">
+              Patient Name : {appointment.name}
             </h3>
 
-            <p className="mt-2">
-              <strong>Doctor:</strong> {appointment.doctor}
+            <p className="text-gray-800 dark:text-gray-300 mt-2">
+              <strong>Doctor Name :</strong> {appointment.doctor}
             </p>
 
-            <p>
-              <strong>Date:</strong> {appointment.date}
+            <p className="text-gray-800 dark:text-gray-300">
+              <strong>Date :</strong> {appointment.date}
             </p>
 
-            <p><strong>
-              Time:</strong>{" "}
+            <p className="text-gray-800 dark:text-gray-300"><strong>
+              Time :</strong>{" "}
               {new Date(`2000-01-01T${appointment.time}`).toLocaleTimeString([], {
                hour: "numeric",
                minute: "2-digit",
